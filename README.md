@@ -40,12 +40,12 @@ b. Make a constructor function called `Celsius` that has one property: `celsius`
 
 ```js
 let outsideTempt = new Celsius(10.0)
-tenDegreesCelsius.celsius //returns 10.0
-tenDegreesCelsius.getKelvinTemp() //returns 283.0
-tenDegreesCelsius.getFahrenheitTemp() //returns 50.0
+outsideTempt.celsius //returns 10.0
+outsideTempt.getKelvinTemp() //returns 283.0
+outsideTempt.getFahrenheitTemp() //returns 50.0
 ```
 
-c. Give `Celsius` a constructor function called `isBelowFreezing` that returns a `Bool` (true if the temperature is below freezing).
+c. Give `Celsius` a prototype function called `isBelowFreezing` that returns a `Bool` (true if the temperature is below freezing).
 
 ## Question 5
 
